@@ -1,0 +1,36 @@
+{
+  "name": "weather-forecast-api",
+  "version": "1.0.0",
+  "description": "Node API for a weather forecast API using Typescript and TDD",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatoam/weather-forecast-api.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "jest",
+    "tdd",
+    "testing"
+  ],
+  "author": "Renato Melo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renatoam/weather-forecast-api/issues"
+  },
+  "homepage": "https://github.com/renatoam/weather-forecast-api#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^16.11.7",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
